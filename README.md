@@ -13,3 +13,5 @@ function env ($key, $defaultValue = null)
     return \q4ev\simpleEnvConfig\EnvConfig::get($key, $defaultValue);
 }
 ```
+
+Then anywhere in the code you can use `\env('EXAMPLE_KEY')` to get value out of .env-file that contains `EXAMPLE_KEY = "something-something"`
