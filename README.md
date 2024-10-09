@@ -7,7 +7,9 @@ PHP >=7.4
 
 After installing add this code to your "<...>/bootstrap.php":
 
+```php
 function env ($key, $defaultValue = null)
 {
-	return \q4ev\simpleEnvConfig\EnvConfig::get($key, $defaultValue);
+    return \q4ev\simpleEnvConfig\EnvConfig::get($key, $defaultValue);
 }
+```
